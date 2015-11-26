@@ -136,6 +136,8 @@ textarea {
 
 .fat-text h1 {
     font-size: 92px;
+    position: relative;
+    top:-5px;
 }
 
 /* Essential Components */
