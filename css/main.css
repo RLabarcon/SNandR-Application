@@ -1,0 +1,382 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    background-color: #dfdfsf;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* jQuery Slider */
+
+#slider {
+  position: relative;
+  margin: 0 auto;
+  width: 1067px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#slider .slides { 
+  display: block;
+  width: 5335px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none; 
+  width: 1067px;
+  height: 600px;
+}
+
+
+/* Typography */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.container h1 {
+    text-align: center;
+    font-family: serif;
+    font-size: 56px;
+    line-height: 48px;
+}
+
+.text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-spacing: 24px;
+}
+
+.content h1{
+  text-align: center;
+  font-family: serif;
+  font-size: 64px;
+  line-height: 56px;
+}
+
+.content p {
+  position: relative;
+  top: -20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-spacing: 24px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.fat-text h1 {
+    font-size: 92px;
+}
+
+/* Essential Components */
+
+.cover img {
+    display: block;
+    margin: 0 auto 15px auto;
+    min-width: 1100px;
+    max-width: 1100px;
+    height: auto;
+    padding: 36px;
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.another {
+    margin-top:150px;
+}
+.lifted {
+    position: relative;
+    top:-420px;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  display: block;
+  margin: 0 auto;
+  width: 640px;
+  border-left: thin solid #111;
+  padding-left: 36px;
+}
+
+
+/* Numbers */
+
+.number {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.one {
+    transform: translateX(0%);
+}
+.two {
+    transform: translateX(-25%);
+}
+.three {
+    transform: translateX(-50%);
+}
+.four {
+    transform: translateX(-75%);
+}
+
+/* Next Button */
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button {
+background-color: #222;
+  display: block;
+  position: relative;
+  top:-10px;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  box-shadow: 0 0 2px #111;
+}
+
+.button:hover{
+  background-color: #eee;
+}
+
+.button h2 {
+  color: white;
+  font-family: serif;
+  font-style: italic;
+  font-size: 36px;
+  position: relative;
+  top:50px;
+  margin: 75px auto 75px auto;
+  text-align: center;
+}
+
+.button:hover h2{
+    font-family: "Open Sans", sans-serif;
+    color: #222;
+    top:55px;
+    font-size: 30px;
+}
+
+.button:active {
+    background-color: #444;
+}
+.button:active h2{
+  color: #fff;
+}
+
+.sig img {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
