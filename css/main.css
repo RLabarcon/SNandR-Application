@@ -62,15 +62,19 @@ textarea {
 #slider {
   position: relative;
   margin: 0 auto;
-  width: 1067px;
-  height: 600px;
+  width:70vw;
+  min-width: 800px;
+  max-width: 1067px;
+  height: auto;
+  max-height: 600px;
   overflow: hidden;
 }
 
 #slider .slides { 
   display: block;
-  width: 5335px;
-  height: 600px;
+  width: 4000px;
+  max-height: 600px;
+  height: auto;
   margin: 0;
   padding: 0;
 }
@@ -78,8 +82,19 @@ textarea {
 #slider .slide {
   float: left;
   list-style-type: none; 
-  width: 1067px;
-  height: 600px;
+  width:70vw;
+  min-width: 800px;
+  max-width: 1067px;
+  height: auto;
+  max-height: 600px;
+}
+
+#slider .slide img {
+  width:70vw;
+  min-width: 800px;
+  max-width: 1067px;
+  height: auto;
+  max-height: 600px;
 }
 
 
@@ -88,10 +103,10 @@ textarea {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .container h1 {
-    text-align: center;
-    font-family: serif;
-    font-size: 56px;
-    line-height: 48px;
+  text-align: center;
+  font-family: serif;
+  font-size: 56px;
+  line-height: 48px;
 }
 
 .text p {
@@ -125,27 +140,35 @@ textarea {
 
 /* Essential Components */
 
+.cover {
+  display: block;
+  margin: 0 auto;
+  width: 90vw;
+}
+
 .cover img {
-    display: block;
-    margin: 0 auto 15px auto;
-    min-width: 1100px;
-    max-width: 1100px;
-    height: auto;
-    padding: 36px;
+  display: block;
+  margin: 0 auto;
+  width:70vw;
+  min-width: 800px;
+  max-width: 1067px;
+  height: auto;
+  max-height: 70vh;
+  padding: 36px;
 }
 
 .content {
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
 }
 
 .another {
-    margin-top:150px;
+  margin-top:150px;
 }
 .lifted {
-    position: relative;
-    top:-420px;
+  position: relative;
+  top:-420px;
 }
 .container {
   width: 100%;
@@ -164,25 +187,25 @@ textarea {
 /* Numbers */
 
 .number {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
-    position: relative;
-    overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
 }
 
 .one {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 .two {
-    transform: translateX(-25%);
+  transform: translateX(-25%);
 }
 .three {
-    transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .four {
-    transform: translateX(-75%);
+  transform: translateX(-75%);
 }
 
 /* Next Button */
@@ -224,18 +247,20 @@ background-color: #222;
 }
 
 .button:hover h2{
-    font-family: "Open Sans", sans-serif;
-    color: #222;
-    top:55px;
-    font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  top:55px;
+  font-size: 30px;
 }
 
 .button:active {
-    background-color: #444;
+  background-color: #444;
 }
 .button:active h2{
   color: #fff;
 }
+
+/* Signature */
 
 .sig img {
   display: block;
