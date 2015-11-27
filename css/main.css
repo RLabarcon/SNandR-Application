@@ -118,16 +118,16 @@ textarea {
 .content h1{
   text-align: center;
   font-family: serif;
-  font-size: 56px;
-  line-height: 48px;
+  font-size: 64px;
+  line-height: 56px;
 }
 
 .content p {
   position: relative;
   top: -20px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-spacing: 24px;
   width: 300px;
   margin: 0 auto;
   text-align: center;
@@ -137,7 +137,7 @@ textarea {
 .fat-text h1 {
     font-size: 92px;
     position: relative;
-    top:-8px;
+    top:-5px;
 }
 
 /* Essential Components */
